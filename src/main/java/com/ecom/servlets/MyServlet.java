@@ -42,6 +42,16 @@ public class MyServlet extends HttpServlet {
 			request.getRequestDispatcher("/WEB-INF/faq.jsp").forward(request, response);	
 		}else if(pageString.equals("product-details")) {
 			request.getRequestDispatcher("/WEB-INF/product-details.jsp").forward(request, response);	
+		}else if(pageString.equals("indexA")) {
+			request.getRequestDispatcher("/WEB-INF/indexA.jsp").forward(request, response);	
+		}else if(pageString.equals("categoriesA")) {
+			request.getRequestDispatcher("/WEB-INF/categoriesA.jsp").forward(request, response);	
+		}else if(pageString.equals("productsA")) {
+			request.getRequestDispatcher("/WEB-INF/productsA.jsp").forward(request, response);	
+		}else if(pageString.equals("ordersA")) {
+			request.getRequestDispatcher("/WEB-INF/ordersA.jsp").forward(request, response);	
+		}else if(pageString.equals("loginA")) {
+			request.getRequestDispatcher("/WEB-INF/loginA.jsp").forward(request, response);	
 		}
 		
 		

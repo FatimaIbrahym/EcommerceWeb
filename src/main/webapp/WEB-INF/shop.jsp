@@ -17,7 +17,7 @@
         <div class="loader"></div>
     </div>
     
-    <div><c:import url="header.jsp">
+    <div><c:import url="includes/header.jsp">
          <c:param name="p" value="shop"></c:param>
     </c:import></div>
 
@@ -424,7 +424,7 @@
     </section>
     <!-- Product Shop Section End -->
 
-    <%@ include file="footer.jsp" %>
+    <%@ include file="includes/footer.jsp" %>
 
     <!-- Js Plugins -->
     <script src="js/jquery-3.3.1.min.js"></script>

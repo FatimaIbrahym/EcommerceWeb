@@ -77,7 +77,7 @@
                             <li class="heart-icon">
                                 <a href="#">
                                     <i class="icon_heart_alt"></i>
-                                    <span>1</span>
+                                    <span>0</span>
                                 </a>
                             </li>
                             <li class="cart-icon">
@@ -135,10 +135,11 @@
            <div class="nav-item">
             <div class="container">
                 <div class="nav-depart">
+                    <!-- hhhhhhhhhhhhhhhhhhhhhhhhhhhh -->
                     <div class="depart-btn">
-                        <i class="ti-menu"></i>
-                        <span>All departments</span>
-                        <ul class="depart-hover">
+                    <i class="ti-menu"></i>
+                    <span>departments</span>
+                    <ul class="depart-hover">
                             <li class="active"><a href="#">Women’s Clothing</a></li>
                             <li><a href="#">Men’s Clothing</a></li>
                             <li><a href="#">Underwear</a></li>
@@ -147,12 +148,12 @@
                             <li><a href="#">Accessories/Shoes</a></li>
                             <li><a href="#">Luxury Brands</a></li>
                             <li><a href="#">Brand Outdoor Apparel</a></li>
-                        </ul>
+                    </ul>
                     </div>
                 </div>
                 <nav class="nav-menu mobile-menu">
                     <ul>
-                        <li class="<c:if test='${param.p=="index"}'>active</c:if>"><a href="MyServlet?page=home">Home</a></li>
+                        <li class="active"><a href="MyServlet?page=home">Home</a></li>
                         <li class="<c:if test='${param.p=="shop"}'>active</c:if>"><a href="MyServlet?page=shop">Shop</a></li>
                         <li><a href="#">Collection</a>
                             <ul class="dropdown">
