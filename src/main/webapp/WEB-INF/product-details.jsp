@@ -5,7 +5,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>Fashi | Product details</title>
 </head>
 <body>
  <!-- Page Preloder -->
